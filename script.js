@@ -16,9 +16,11 @@ text.addEventListener('keyup',function(){
 	if(flag==false){
 		count=count+1;
 	}
-	
-	
 	header.innerHTML=count;
+	if(sentence.length==0){
+		header.innerHTML=0;
+	}
 });
+header.innerHTML=0;
 
 
