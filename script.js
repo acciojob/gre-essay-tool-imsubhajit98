@@ -18,7 +18,7 @@ text.addEventListener('keyup',function(){
 	}
 	
 	
-	header.innerText=count;
+	header.innerHTML=count;
 });
 
 
